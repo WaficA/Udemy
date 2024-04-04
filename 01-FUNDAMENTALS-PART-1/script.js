@@ -60,7 +60,6 @@ const birthDate = 1990;  //better use as default
 var job = "programmer";  //function scoped
 job = "teacher";
 
-*/
 const now=2037;
 const ageTrinity = now-1991;
 const ageSarah = now-2018;
@@ -86,4 +85,37 @@ console.log(ageTrinity >= 18);
 
 const isFullAge = ageTrinity >= 18;
 
-console.log(now - 1991 > now -2018)
+console.log(now - 1991 > now -2018);
+
+*/
+
+const now = 2037;
+const ageTrinity = now-1991;
+const ageSarah = now-2018;
+
+console.log(now - 1991 > now -2018);
+
+console.log(25 -10 -5); // left to right execution example
+
+let x, y; // holding value undefined
+x = y = 25 - 10 - 5 ;
+console.log(x, y);
+
+
+const averageAge = (ageSarah + ageTrinity) / 2;
+console.log(ageSarah, ageTrinity, averageAge);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
