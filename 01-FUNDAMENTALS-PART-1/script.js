@@ -50,7 +50,6 @@ console.log(typeof year);
 
 year = 1991;
 console.log(typeof year)
-*/
 
 let age = 30  //block scoped
 age = 31;
@@ -60,3 +59,31 @@ const birthDate = 1990;  //better use as default
 
 var job = "programmer";  //function scoped
 job = "teacher";
+
+*/
+const now=2037;
+const ageTrinity = now-1991;
+const ageSarah = now-2018;
+console.log(ageTrinity,ageSarah);
+
+//console.log(ageTrinity*2, ageSarah/10, 2**3);
+
+const fistName = "Nikita";
+const lastName = " Traves";
+console.log(fistName+lastName); //concatenate
+
+//Assignment operators
+let x = 10 +5;
+x += 10; // x = x + 10;
+x *= 10;
+x ++; // x = x + 1;
+x --; // x = x - 1;
+console.log(x);
+
+//Comparison Operators
+console.log(ageSarah > ageTrinity); // >, <, >=, <=
+console.log(ageTrinity >= 18);
+
+const isFullAge = ageTrinity >= 18;
+
+console.log(now - 1991 > now -2018)
