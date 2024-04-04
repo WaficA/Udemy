@@ -30,7 +30,7 @@ let population = "three million";
 console.log(country, continent, population);
 
 // 7 primitive data types Number/String/Boolean/Undefined/Null/Symbol(ES2015)/BigInt(ES2020)
-*/
+
 
 
 let javaScriptIsFun = true;
@@ -50,4 +50,13 @@ console.log(typeof year);
 
 year = 1991;
 console.log(typeof year)
+*/
 
+let age = 30  //block scoped
+age = 31;
+
+const birthDate = 1990;  //better use as default
+//birthDate = 1999;  
+
+var job = "programmer";  //function scoped
+job = "teacher";
