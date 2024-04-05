@@ -87,8 +87,6 @@ const isFullAge = ageTrinity >= 18;
 
 console.log(now - 1991 > now -2018);
 
-*/
-
 const now = 2037;
 const ageTrinity = now-1991;
 const ageSarah = now-2018;
@@ -105,7 +103,7 @@ console.log(x, y);
 const averageAge = (ageSarah + ageTrinity) / 2;
 console.log(ageSarah, ageTrinity, averageAge);
 
-
+*/
 
 
 
