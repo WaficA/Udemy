@@ -1,4 +1,5 @@
-/*Coding Challenge #1
+/*
+coding Challenge #1
 Mark and John are trying to compare their BMI (Body Mass Index), which is
 calculated using the formula:
 BMI = mass / height ** 2 = mass / (height * height) (mass in kg
@@ -14,7 +15,7 @@ Test data:
 m tall.
 §Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76
 m tall.
-GOOD LUCK 😀 */
+GOOD LUCK 😀 
 
 
 //undefined
@@ -29,13 +30,13 @@ markHeight = 1.69;
 johnMass = 92;
 johnHeight = 1.95;
 
-/*
+
 //Data 2;
 markMass = 95;
 markHeight = 1.88;
 johnMass = 85;
 johnHeight = 1.76;
-*/
+
 
 //Using both formulas
 const BMIMark = markMass / markHeight ** 2;
@@ -45,3 +46,4 @@ const BMIJohn = johnMass / (johnHeight * johnHeight);
 let markHigherBMI = BMIMark > BMIJohn;
 
 console.log(BMIMark, BMIJohn, markHigherBMI);
+*/

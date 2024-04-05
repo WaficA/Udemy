@@ -105,15 +105,23 @@ console.log(ageSarah, ageTrinity, averageAge);
 
 */
 
+const firstName = 'Sarah';
+const job = 'Operation manager';
+const birthYear = 1989;
+const year = 2024;
 
+const Sarah = "i'm " + firstName + ", a " + (year-birthYear) + " years old " + job +"!";
+console.log(Sarah);
 
+//Template literal
+const sarahNew = `i'm ${firstName}, a ${year-birthYear}, years old ${job}!`;
+console.log(sarahNew);
 
+console.log(`just a regular string`);
 
+console.log('string \n\ with multiple \n\ lines');
 
-
-
-
-
-
-
+console.log(`string with
+multiple
+lines`);
 
