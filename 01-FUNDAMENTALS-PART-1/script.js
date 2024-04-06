@@ -161,11 +161,10 @@ console.log('I am '+ '23' +" years old"); // same as above
 console.log('23'-'10'-3); //- operator triggers opposite
 console.log("23" * "2"); // console will be a number
 
-
 let n = "1" + 1;   //11 as a string
 n = n- 1;          //11 - 1 = 10 a number
 console.log(n);    // will be 10.
-*/
+
 
 //Truthy and Falsy Values
 //5 falsy values: 0,'',undefined,null,Nan
@@ -190,13 +189,27 @@ if(height){
 }else {
     console.log(`It's Undefined`)
 };
+*/
 
 
+// equality operators
+const age = 18;
+if(age === 18) console.log(`you just became an adult!(strict)`); //strict
+if (age == '18') console.log(`you just became an adult!(loose)`); //loose
 
+const favorite = Number(prompt(`Enter a number`));
+console.log(favorite);
+console.log(typeof favorite);
 
+if (favorite === 23){ 
+    console.log(`the number 23 is your lucky number!`)
+}else if (favorite === 7){
+    console.log('this is another lucky number')
+} else {
+    console.log (`try again...`)
+};
 
-
-
+if (favorite !== 23) console.log(`try 23`);
 
 
 
