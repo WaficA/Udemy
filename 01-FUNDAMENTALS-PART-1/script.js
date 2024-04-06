@@ -123,7 +123,7 @@ console.log(`string with
 multiple
 lines`);
 
-*/
+
 
 const age = 15;
 // if else control structure. Conditions and blocks.
@@ -144,7 +144,7 @@ if(birthYear <= 2000) {
 }
 console.log(century);
 
-
+*/
 
 
 
