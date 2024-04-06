@@ -143,11 +143,25 @@ if(birthYear <= 2000) {
  century = 21;
 }
 console.log(century);
-
 */
 
+// Type Conversion
+const inputYear = '1991';
+console.log (Number(inputYear) + 18)
+console.log(inputYear + 18); //inputYear is still a string
+
+console.log(Number('jonas')); //console output will be NAN(not a number{as invalid number})
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+//Type coercion
+console.log('I am '+ 23 +" years old"); //operation between string and number. Number will be converted to string.
+console.log('I am '+ '23' +" years old"); // same as above 
+console.log('23'-'10'-3); //- operator triggers opposite
+console.log("23" * "2"); // console will be a number
 
 
-
-
-
+let n = "1" + 1;   //11 as a string
+n = n- 1;          //11 - 1 = 10 a number
+console.log(n);    // will be 10.
