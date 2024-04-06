@@ -143,7 +143,7 @@ if(birthYear <= 2000) {
  century = 21;
 }
 console.log(century);
-*/
+
 
 // Type Conversion
 const inputYear = '1991';
@@ -165,3 +165,53 @@ console.log("23" * "2"); // console will be a number
 let n = "1" + 1;   //11 as a string
 n = n- 1;          //11 - 1 = 10 a number
 console.log(n);    // will be 10.
+*/
+
+//Truthy and Falsy Values
+//5 falsy values: 0,'',undefined,null,Nan
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('sarah'));
+console.log(Boolean({})); //Empty Object
+console.log(Boolean(''));
+
+const money = 0;
+if (money){
+    console.log(`Don't spend it all`)
+} else {
+    console.log(`you should get a job`)
+};
+
+
+let height = 1;
+if(height){
+    console.log(`its defined`)
+}else {
+    console.log(`It's Undefined`)
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
