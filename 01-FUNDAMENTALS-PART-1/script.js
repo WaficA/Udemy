@@ -103,8 +103,6 @@ console.log(x, y);
 const averageAge = (ageSarah + ageTrinity) / 2;
 console.log(ageSarah, ageTrinity, averageAge);
 
-*/
-
 const firstName = 'Sarah';
 const job = 'Operation manager';
 const birthYear = 1989;
@@ -124,4 +122,32 @@ console.log('string \n\ with multiple \n\ lines');
 console.log(`string with
 multiple
 lines`);
+
+*/
+
+const age = 15;
+// if else control structure. Conditions and blocks.
+if(age >= 18){
+console.log(`sarah can start driving`);
+} else {
+    const yearsLeft = 18 -age;
+    console.log(`she cannot drive, she has ${yearsLeft} years left!`);
+}
+
+
+const birthYear = 2012;
+let century;
+if(birthYear <= 2000) {
+ century = 20;
+} else {
+ century = 21;
+}
+console.log(century);
+
+
+
+
+
+
+
 
