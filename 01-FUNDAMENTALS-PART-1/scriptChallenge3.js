@@ -19,7 +19,7 @@ Test data:
 §Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
 §Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 GOOD LUCK 😀
-*/
+
 
 //Data 1
 // let dolphinsAverageScore = (96 + 108 + 89) / 3;
@@ -45,6 +45,4 @@ if(dolphinsAverageScore === koalasAverageScore && dolphinsAverageScore >= minSco
 } else if (dolphinsAverageScore > koalasAverageScore && dolphinsAverageScore >= minScore){
     console.log(`Team Dolphin wins the trophy`) //done
 } else console.log(`You both loose`)
-
-
-
+*/
