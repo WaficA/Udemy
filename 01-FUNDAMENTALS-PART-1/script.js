@@ -209,7 +209,6 @@ if (favorite === 23){
 
 if (favorite !== 23) console.log(`try 23`);
 
-*/
 
 //Boolean logic. The AND, OR & NOT operators. Logical Operators
 
@@ -236,7 +235,7 @@ if (hasDriversLicense && hasGoodVision && !isTired){
     console.log(`someone else should drive`)
 };
 
-
+*/
 
 
 
