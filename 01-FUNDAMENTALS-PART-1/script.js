@@ -189,8 +189,6 @@ if(height){
 }else {
     console.log(`It's Undefined`)
 };
-*/
-
 
 // equality operators
 const age = 18;
@@ -211,11 +209,32 @@ if (favorite === 23){
 
 if (favorite !== 23) console.log(`try 23`);
 
+*/
 
+//Boolean logic. The AND, OR & NOT operators. Logical Operators
 
+const hasDriversLicense = true;
+const hasGoodVision = true;
 
+console.log(hasDriversLicense && hasGoodVision);   //And
+console.log(hasDriversLicense || hasGoodVision);   //Or
+console.log(!hasDriversLicense || hasGoodVision);  //Not
 
+//const shouldDrive = hasDriversLicense && hasGoodVision;
+// if (hasDriversLicense && hasGoodVision){
+//     console.log(`sarah is able to drive`);
+// } else {
+//     console.log(`someone else should drive`)
+// };
 
+const isTired = true; 
+console.log(hasDriversLicense && hasGoodVision && isTired);
+
+if (hasDriversLicense && hasGoodVision && !isTired){
+    console.log(`sarah is able to drive`);
+} else {
+    console.log(`someone else should drive`)
+};
 
 
 
