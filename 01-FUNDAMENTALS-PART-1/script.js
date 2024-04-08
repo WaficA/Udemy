@@ -234,8 +234,8 @@ if (hasDriversLicense && hasGoodVision && !isTired){
 } else {
     console.log(`someone else should drive`)
 };
-*/
 
+//Switch Statement
 const day = 'sunday';
 
 switch(day) {
@@ -273,6 +273,58 @@ console.log('write code examples')
 } else if (day === 'saturday' || day === 'sunday'){
     console.log('enjoy the weekend');
 }else console.log('Not a valid entry')
+
+
+
+3 + 4 
+1991
+true && false && !false
+
+if (23>10){
+    const str = "23 is bigger";
+}
+
+const me = "jonas";
+console.log(`i'm ${2037 - 1991} years old ${me}`)
+*/
+
+//Ternary operator. The conditional operator
+
+const age = 23;
+// age >= 18 ? console.log(`i like to drink wine`) : console.log(`id like to drink water`);
+
+const drink = age >= 18 ? 'wine' : 'water'
+console.log(drink);
+
+// let drink2;
+// if(age >= 18){
+//     drink2 = 'wine';
+// }else {
+//     drink2 = 'water';
+// };
+// console.log(drink2)
+
+console.log(`i like to drink ${age >= 18 ? 'wine' : 'water'}`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
