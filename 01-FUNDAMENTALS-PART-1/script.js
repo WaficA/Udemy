@@ -286,7 +286,7 @@ if (23>10){
 
 const me = "jonas";
 console.log(`i'm ${2037 - 1991} years old ${me}`)
-*/
+
 
 //Ternary operator. The conditional operator
 
@@ -305,7 +305,7 @@ console.log(drink);
 // console.log(drink2)
 
 console.log(`i like to drink ${age >= 18 ? 'wine' : 'water'}`);
-
+*/
 
 
 
