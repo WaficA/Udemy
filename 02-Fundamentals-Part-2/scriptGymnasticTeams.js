@@ -29,7 +29,7 @@ Apply this to the team's average scores 😉
 GOOD LUCK 😀 */
 
 
-
+/*
 // function calcAverage (score1, score2, score3){
 // return (score1 + score2 + score3) / 3
 // }
@@ -61,3 +61,4 @@ console.log(checkWinner(scoreDolphins,scoreKoalas));
 scoreDolphins = calcAverage(85, 54, 41);
 scoreKoalas = calcAverage(108,109, 152);
 console.log(checkWinner(scoreDolphins,scoreKoalas));
+*/
