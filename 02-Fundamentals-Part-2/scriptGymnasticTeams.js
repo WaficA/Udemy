@@ -38,25 +38,26 @@ GOOD LUCK 😀 */
 const calcAverage = (score1, score2, score3) => (score1 + score2 + score3) / 3;
 // console.log(calcAverage(1, 2, 3));
 
-const scoreDolphins = calcAverage(44, 23, 71);
-const scoreKoalas = calcAverage(65, 54, 49);
+//Test Data 1
+let scoreDolphins = calcAverage(44, 23, 71);
+let scoreKoalas = calcAverage(65, 54, 49);
 console.log(scoreDolphins, scoreKoalas);
 
+const checkWinner = function (avgDolphins, avgKoalas) {
+     if (avgDolphins >= avgKoalas * 2){
+        return `Dolphins win (${scoreDolphins} vs ${scoreKoalas})`
+     } else if (avgKoalas >= avgDolphins * 2){
+        return `Koalas win (${scoreKoalas} vs ${scoreDolphins})`
+     }else return `No one wins`
+}
+console.log(checkWinner(scoreDolphins, scoreKoalas));
 
+//Test Data 2
+scoreDolphins = calcAverage(85, 54, 41);
+scoreKoalas = calcAverage(23, 34, 27);
+console.log(checkWinner(scoreDolphins,scoreKoalas));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Let koalas win
+scoreDolphins = calcAverage(85, 54, 41);
+scoreKoalas = calcAverage(108,109, 152);
+console.log(checkWinner(scoreDolphins,scoreKoalas));
