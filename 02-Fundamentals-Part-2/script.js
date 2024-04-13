@@ -94,3 +94,43 @@ const yearsUntilRetirement = function (birthYear, firstName){
 console.log(yearsUntilRetirement(1991, "sarah"));
 console.log(yearsUntilRetirement(1960, "john"));
 */
+
+// Data structure
+const friend1 = 'peter';
+const friend2 = 'sarah';
+const friend3 = 'steve';
+
+const friends = ['peter','sarah','steve'];
+console.log(friends);
+
+const newArray = new Array(1991, 1984, 2008, 2020);
+console.log(newArray);
+
+console.log(friends[0]); // calling the first input
+console.log(friends[2]);
+
+console.log(newArray.length);
+console.log(newArray[newArray.length -1]);
+
+friends[2] = 'jay';  // can mutate arrays, while primitive values are immutable
+console.log(friends);
+
+const mixedArray = ['john', 'terre', 2037-1991, friends];
+console.log(mixedArray)
+
+//Exercise
+const calcAge = function (birthYear) {
+    return 2037 - birthYear
+}
+const years = [1990, 1967, 2002, 2010, 2018];
+
+console.log(calcAge(years)); //NaN
+console.log(calcAge(years[0]));
+
+const age0 = calcAge(years[0]);
+const age1 = calcAge(years[1]);
+const age3 = calcAge(years[years.length-1]);
+console.log(age0, age1, age3);
+
+const agesCalculated = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length-1])];
+console.log(agesCalculated);
