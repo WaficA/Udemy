@@ -134,3 +134,29 @@ console.log(age0, age1, age3);
 
 const agesCalculated = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length-1])];
 console.log(agesCalculated);
+
+//Basic Array Operations
+
+const friendsBasic = ['mike', 'steve', 'peter'];
+
+const newLength = friendsBasic.push('jay'); //Add at the end of Array.Return Length
+console.log(friendsBasic);
+
+friendsBasic.unshift('sarah'); //Add at start of array
+console.log(friendsBasic);
+
+friendsBasic.pop();  //Remove from end of Array.Return the last element.
+console.log(friendsBasic)
+
+friendsBasic.shift();
+console.log(friendsBasic) //Remove from Start of Array
+
+console.log(friendsBasic.indexOf('steve'));  //check 
+console.log(friendsBasic.indexOf('sarah'));
+
+console.log(friendsBasic.includes('sarah'));  //Test with strict equality ===
+console.log(friendsBasic.includes('steve'));
+
+if (friendsBasic.includes('sarah')){
+    console.log('you have a friend called sarah')
+} else console.log('you do not have sarah as friend')
