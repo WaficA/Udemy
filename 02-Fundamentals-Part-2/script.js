@@ -93,7 +93,7 @@ const yearsUntilRetirement = function (birthYear, firstName){
 }
 console.log(yearsUntilRetirement(1991, "sarah"));
 console.log(yearsUntilRetirement(1960, "john"));
-*/
+
 
 // Data structure
 const friend1 = 'peter';
@@ -160,3 +160,4 @@ console.log(friendsBasic.includes('steve'));
 if (friendsBasic.includes('sarah')){
     console.log('you have a friend called sarah')
 } else console.log('you do not have sarah as friend')
+*/
