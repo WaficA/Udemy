@@ -19,7 +19,7 @@ Hint: Remember that an array needs a value in each position, and that value can
 actually be the returned value of a function! So you can just call a function as array
 values (so don't store the tip values in separate variables first, but right in the new
 array) 😉
-GOOD LUCK 😀*/
+GOOD LUCK 😀
 
 
 
@@ -37,6 +37,58 @@ console.log(bill,tips,total);
 
 const totals = [bill[0] + calcTip(bill[0]),bill[1] + calcTip(bill[1]),bill[2] + calcTip(bill[2])];
 console.log(bill,tips,totals); // Same as above.
+*/
+
+const jonasArray = [
+    'jonas',
+    'traves',
+    2037-1991,
+    'teacher',
+    ['peter','sarah','peter']
+];
+
+//Objects... order of properties does not matter.
+const jonas = {
+    firstName : 'jonas',
+    lastName : 'traves',
+    age : 2037-1991,
+    job : 'teacher',
+    friends : ['peter','sarah','peter']
+};
+//Dot notation
+console.log(jonas.lastName);
+//Bracket Notation
+console.log(jonas['lastName']);
+
+const key = 'Name';
+console.log(jonas['first' + key]);
+
+
+const interestedIn = prompt('What do you want to know about jonas? choose between firstName, lastName, age, job, and friends');
+
+if (jonas[interestedIn]){
+    console.log(jonas[interestedIn]);
+} else {
+    console.log('wrong request : choose from : firstName, lastName, age, job, and friends')
+}
+
+jonas.location = 'portugal';
+jonas['email'] = 'email@outlook.com'
+console.log(jonas);
+
+//Challenge 
+//"jonas has 3 friends, and his best friend is called sarah"
+console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is ${jonas.friends[1]}.`);
+
+
+
+
+
+
+
+
+
+
 
 
 

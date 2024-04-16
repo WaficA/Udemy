@@ -161,3 +161,4 @@ if (friendsBasic.includes('sarah')){
     console.log('you have a friend called sarah')
 } else console.log('you do not have sarah as friend')
 */
+
