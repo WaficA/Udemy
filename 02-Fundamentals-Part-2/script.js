@@ -160,5 +160,82 @@ console.log(friendsBasic.includes('steve'));
 if (friendsBasic.includes('sarah')){
     console.log('you have a friend called sarah')
 } else console.log('you do not have sarah as friend')
+
+const jonasArray = [
+    'jonas',
+    'traves',
+    2037-1991,
+    'teacher',
+    ['peter','sarah','peter']
+];
+
+//Objects... order of properties does not matter.
+const jonas = {
+    firstName : 'jonas',
+    lastName : 'traves',
+    age : 2037-1991,
+    job : 'teacher',
+    friends : ['peter','sarah','peter']
+};
+//Dot notation
+console.log(jonas.lastName);
+//Bracket Notation
+console.log(jonas['lastName']);
+
+const key = 'Name';
+console.log(jonas['first' + key]);
+
+
+const interestedIn = prompt('What do you want to know about jonas? choose between firstName, lastName, age, job, and friends');
+
+if (jonas[interestedIn]){
+    console.log(jonas[interestedIn]);
+} else {
+    console.log('wrong request : choose from : firstName, lastName, age, job, and friends')
+}
+
+jonas.location = 'portugal';
+jonas['email'] = 'email@outlook.com'
+console.log(jonas);
+
+//Challenge 
+//"jonas has 3 friends, and his best friend is called sarah"
+console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is ${jonas.friends[1]}.`);
+
+//Objects Methods for the object contains a function
+const jonas = {
+    firstName : 'jonas',
+    lastName : 'traves',
+    birthYear : 1991,
+    job : 'teacher',
+    friends : ['peter','sarah','peter'],
+    hasDriverLicense : true,
+    
+    // calcAge : function(birthYear){
+        //     return 2037 - birthYear;
+        // }
+        
+        // calcAge : function(){
+            //     return 2037 - this.birthYear;
+            // }
+            
+            calcAge : function() {
+                this.age = 2037 - this.birthYear
+                return this.age;
+            },
+            
+            challenge : function(){
+                return`${this.firstName} is a ${this.calcAge()} year old ${this.job}, and he has ${this.hasDriverLicense ? 'a' : 'no'} drivers license`
+            },
+        };
+        
+        console.log(jonas.calcAge());
+        // console.log(jonas.calcAge(1991));
+        // console.log(jonas['calcAge'](1991));
+        console.log(jonas.age);
+        
+        //challenge
+        //"jonas is a 46 year old teacher, and he has a/no drivers license"
+        console.log(jonas.challenge());
 */
 
