@@ -37,7 +37,6 @@ console.log(bill,tips,total);
 
 const totals = [bill[0] + calcTip(bill[0]),bill[1] + calcTip(bill[1]),bill[2] + calcTip(bill[2])];
 console.log(bill,tips,totals); // Same as above.
-*/
 
 const jonasArray = [
     'jonas',
@@ -79,11 +78,43 @@ console.log(jonas);
 //Challenge 
 //"jonas has 3 friends, and his best friend is called sarah"
 console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is ${jonas.friends[1]}.`);
+*/
 
+//Objects Methods for the object contains a function
+const jonas = {
+    firstName : 'jonas',
+    lastName : 'traves',
+    birthYear : 1991,
+    job : 'teacher',
+    friends : ['peter','sarah','peter'],
+    hasDriverLicense : true,
 
+// calcAge : function(birthYear){
+//     return 2037 - birthYear;
+// }
 
+// calcAge : function(){
+//     return 2037 - this.birthYear;
+// }
 
+calcAge : function() {
+    this.age = 2037 - this.birthYear
+    return this.age;
+  },
 
+  challenge : function(){
+    return`${this.firstName} is a ${this.calcAge()} year old ${this.job}, and he has ${this.hasDriverLicense ? 'a' : 'no'} drivers license`
+  },
+};
+
+console.log(jonas.calcAge());
+// console.log(jonas.calcAge(1991));
+// console.log(jonas['calcAge'](1991));
+console.log(jonas.age);
+
+//challenge
+//"jonas is a 46 year old teacher, and he has a/no drivers license"
+console.log(jonas.challenge());
 
 
 
