@@ -21,20 +21,20 @@ values (so don't store the tip values in separate variables first, but right in 
 array) 😉
 GOOD LUCK 😀*/
 
-const calcTip = function (bill) {
-    return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2
-};
-console.log(calcTip(100));
+// const calcTip = function (bill) {
+//     return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2
+// };
+// console.log(calcTip(100));
 
-const bill = [125, 555, 44];
+// const bill = [125, 555, 44];
 
-const tips = [calcTip(bill[0]),calcTip(bill[1]),calcTip(bill[2])];
+// const tips = [calcTip(bill[0]),calcTip(bill[1]),calcTip(bill[2])];
 
-const total = [tips[0] + bill[0],tips[1] + bill[1],tips[2] + bill[2]];  
-console.log(bill,tips,total);
+// const total = [tips[0] + bill[0],tips[1] + bill[1],tips[2] + bill[2]];  
+// console.log(bill,tips,total);
 
-const totals = [bill[0] + calcTip(bill[0]),bill[1] + calcTip(bill[1]),bill[2] + calcTip(bill[2])];
-console.log(bill,tips,totals); // Same as above.
+// const totals = [bill[0] + calcTip(bill[0]),bill[1] + calcTip(bill[1]),bill[2] + calcTip(bill[2])];
+// console.log(bill,tips,totals); // Same as above.
 
 /*Coding Challenge #4
 Let's improve Steven's tip calculator even more, this time using loops!
@@ -64,3 +64,52 @@ length of the array (because that's the number of elements)
 4.3.
 Call the function with the 'totals' array
 GOOD LUCK 😀*/
+
+
+const calcTip = function (bill) {
+          return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2
+    };
+
+    const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+    const tips = [];
+    const totals = [];
+
+for ( let i = 0; i <= bills.length; i++){
+    const tip = calcTip(bills[i]);
+    tips.push(tip);
+    totals.push(tip + bills[i]);
+};
+
+console.log(bills, tips, totals);
+
+
+const calcAverage = function (arr) {
+
+};
+
+let sum = 0;
+while (sum <= bills.length) {
+
+    sum++
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
