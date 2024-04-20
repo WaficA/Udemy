@@ -41,6 +41,7 @@ console.log(amplitude);
 // - With 2 arrays, should we implement functionality twice? NO! Just merge two arrays
 // 2) Breaking up into sub-problems
 // - Merge 2 arrays
+
 const calcTempAmplitudeNew = function (t1, t2) {
   const temps = t1.concat(t2);
   //   console.log(temps);
