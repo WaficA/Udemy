@@ -1,5 +1,5 @@
 'use strict';
-
+/*
 // PROBLEM 1:
 // We work for a company building a smart home thermometer. Our most recent task is this: "Given an array of temperatures of one day, calculate the temperature amplitude. Keep in mind that sometimes there might be a sensor error."
 
@@ -35,14 +35,12 @@ const calcTempAmplitude = function (temps) {
 
 const amplitude = calcTempAmplitude(temperatures);
 console.log(amplitude);
-
 // PROBLEM 2:
 // Function should now receive 2 arrays of temps
 // 1) Understanding the problem
 // - With 2 arrays, should we implement functionality twice? NO! Just merge two arrays
 // 2) Breaking up into sub-problems
 // - Merge 2 arrays
-
 const calcTempAmplitudeNew = function (t1, t2) {
   const temps = t1.concat(t2);
   //   console.log(temps);
@@ -63,3 +61,4 @@ const calcTempAmplitudeNew = function (t1, t2) {
 
 const amplitudeNew = calcTempAmplitudeNew([1, 2, 3], [4, 5, 6]);
 console.log(amplitudeNew);
+*/
